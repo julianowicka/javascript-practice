@@ -18,3 +18,15 @@ let job1 = "flight attendant";
 let job2 = "acrobat";
 
 console.log(myFirstJob);
+/*1. Declare variables called 'country', 'continent' and 'population' and
+assign their values according to your own country (population in millions)
+2. Log their values to the console*/
+let country = 'Poland';
+let continent = 'Europe';
+let population = 37.75;
+console.log(country);
+console.log(continent);
+console.log(population);
+
+
+//Data Types
