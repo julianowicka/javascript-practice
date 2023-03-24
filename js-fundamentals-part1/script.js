@@ -77,7 +77,7 @@ language = 'polish';
 const country = 'Poland';
 const continent = 'Europe';
 const isIsland = false;
-isIsland = true;
+//isIsland = true;
 
 /*LECTURE: Basic Operators
 1. If your country split in half, and each half would contain half the population,
@@ -105,3 +105,10 @@ const description1 =
     ' million people speak ' +
     language;
 console.log(description1);
+
+/*LECTURE: Strings and Template Literals
+1. Recreate the 'description' variable from the last assignment, this time
+using the template literal syntax*/
+
+const description = `${country} is in ${continent}, and its
+ ${population} million people speak ${language}`;
