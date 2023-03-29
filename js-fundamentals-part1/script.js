@@ -129,6 +129,7 @@ if (population > 33) {
  below average`,
     );
 }
+
 /*LECTURE: Type Conversion and Coercion
 1. Predict the result of these 5 operations without executing them:
     '9' - '5';
@@ -137,6 +138,7 @@ if (population > 33) {
 '123' < 57;
 5 + 6 + '4' + 9 - 4 - 2;
 2. Execute the operations to check if you were right*/
+
 console.log('9' - '5');
 console.log('19' - '13' + '17');
 console.log('19' - '13' + 17);
@@ -174,6 +176,7 @@ if (numNeighbours === 1) {
 } else {
     console.log('No borders');
 }
+
 /*LECTURE: Logical Operators
 1. Comment out the previous code so the prompt doesn't get in the way
 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
@@ -187,9 +190,40 @@ not, log 'Portugal does not meet your criteria :('
 5. Probably your country does not meet all the criteria. So go back and temporarily
 change some variables in order to make the condition true (unless you live in
 Canada :D)*/
+
 if (language === 'english' && population < 50 && !isIsland)
 {
     console.log(`You should live in ${country} :)`);
 } else {
     console.log(`${country} does not meet your criteria :(`);
+}
+
+/* LECTURE: The switch Statement
+1. Use a switch statement to log the following string for the given 'language':
+chinese or mandarin: 'MOST number of native speakers!'
+spanish: '2nd place in number of native speakers'
+english: '3rd place'
+hindi: 'Number 4'
+arabic: '5th most spoken language'
+for all other simply log 'Great language too :D'*/
+
+switch (language) {
+    case 'chinese':
+    case 'mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'english':
+        console.log('3rd place');
+        break;
+    case 'hindi':
+        console.log('Number 4');
+        break;
+    case 'arabic':
+        console.log('5th most spoken language');
+        break;
+    default:
+        console.log('Great language too :D');
 }
