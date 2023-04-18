@@ -42,3 +42,13 @@ const percPortugal1 = percentageOfWorld1(10);
 const percChina1 = percentageOfWorld1(1441);
 const percUSA1 = percentageOfWorld1(332);
 console.log(percPortugal1, percChina1, percUSA1);
+
+/*LECTURE: Arrow Functions
+1. Recreate the last assignment, but this time create an arrow function called
+'percentageOfWorld3'*/
+const percentageOfWorld3 = population => (population / 7900)
+    * 100;
+const percPortugal3 = percentageOfWorld3(10);
+const percChina3 = percentageOfWorld3(1441);
+const percUSA3 = percentageOfWorld3(332);
+console.log(percPortugal3, percChina3, percUSA3);
