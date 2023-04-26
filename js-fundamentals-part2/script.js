@@ -117,3 +117,8 @@ if (!neighbours.includes('Germany')) {
 }
 neighbours[neighbours.indexOf('Sweden')] = 'Republic of Sweden';
 console.log(neighbours);
+
+/*LECTURE: Introduction to Objects
+1. Create an object called 'myCountry' for a country of your choice, containing
+properties 'country', 'capital', 'language', 'population' and
+'neighbours' (an array like we used in previous assignments)*/
