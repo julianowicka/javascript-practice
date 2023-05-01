@@ -175,10 +175,14 @@ capital called ${this.capital}.`
     checkIsland: function () {
         this.isIsland = this.neighbours.length === 0 ? true :
             false;
-// Even simpler version (see why this works...)
-// this.isIsland = !Boolean(this.neighbours.length);
+
     }
 };
 myCountry2.describe();
 myCountry2.checkIsland();
 console.log(myCountry2);
+
+/*LECTURE: Iteration: The for Loop
+1. There are elections in your country! In a small town, there are only 50 voters.
+Use a for loop to simulate the 50 people voting, by logging a string like this to
+the console (for numbers 1 to 50): 'Voter number 1 is currently voting'*/
